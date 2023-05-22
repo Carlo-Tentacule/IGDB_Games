@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('16-bit-lzvbg132xgyksiif.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.trueSearch {
+    display: flex;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#searchForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trueInput {
+    width: 1000px;
+    height: 80px;
+    font-size: 4em;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 2px 2px 7px 0 rgb(0, 0, 0, 0.4);
+    outline: none;
+    color: rgb(12, 12, 12);
+    margin-right: 10px;
+}
+
+.trueButton {
+    background-color: rgba(14, 100, 220, 0.573);
+    height: 105px;
+    width: 110px;
+    border: none;
+    padding: 15px 15px;
+    box-shadow: 2px 2px 7px 0 rgba(37, 55, 110, 0.776);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.trueButton:hover {
+    background-color: rgba(14, 100, 220, 0.736);
+    transition: 0.5s;
+}
+
+.trueButton svg {
+    color: #020202;
+    width: 50px;
+}
+
+.trueButton:hover svg {
+    scale: 1.1;
+    transition: 0.5s;
+}
+
+#listGames {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+    padding-top: 3em;
+    height: 30vh;
+}
+
+#listGames a {
+    margin-left: 200px;
+}
+
+.games {
+    width: 30%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.games img {
+    width: 300px;
+}
